@@ -46,7 +46,7 @@ export default function Homepage({
                     marginRight:
                         "mr-[1rem] 2sm:mr-[4rem] sm:mr-[6rem] md:mr-[4rem] lg:mr-[8rem] xl:mr-[14rem] 2xl:mr-[20rem]",
                 }}
-                logoPath="public/Logos/reshot-icon-computer-case-VUF6S2RYHK.svg"
+                logoPath="public/Logos/icons8-computer-64.png"
                 menu={["Home", "Skills", "Projects"]}
             />
             <Home
