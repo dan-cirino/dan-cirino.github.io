@@ -24,12 +24,12 @@ export default function Portfolio() {
                             {
                                 name: "Website",
                                 image: TbWorldWww,
-                                link: "",
+                                link: "https://dan-cirino.github.io/",
                             },
                             {
                                 name: "GitHub",
                                 image: FaGithub,
-                                link: "",
+                                link: "https://github.com/dan-cirino/dan-cirino.github.io",
                             },
                         ]}
                     >
