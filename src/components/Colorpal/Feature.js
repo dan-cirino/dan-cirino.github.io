@@ -1,0 +1,6 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+export default function Feature({ infoOrder, image, description, button, children, }) {
+    return (
+    // Feature Container
+    _jsxs("div", { className: "mx-auto grid h-fit w-fit grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8 xl:gap-16", children: [_jsx("img", { className: "m-auto rounded-lg border-2 border-highlight duration-500 hover:shadow-[0_0_10px_0_highlight] lg:order-last", src: `/Colorpal/${image}`, alt: children }), _jsxs("div", { className: `grid gap-6 lg:order-${infoOrder} lg:m-auto`, children: [_jsx("h2", { className: "text-lg font-bold 2sm:text-2xl md:text-3xl xl:text-4xl", children: children }), _jsx("p", { className: "max-w-[500px] text-justify 2sm:text-lg", children: description }), button && (_jsx("a", { className: "mx-auto h-fit w-fit rounded-xl border-2 border-highlight p-[10px] text-sm font-semibold text-text duration-300 hover:border-highlight hover:bg-highlight 2sm:text-base", href: button.link, target: "_blank", rel: "noreferrer", children: button.text }))] })] }));
+}
