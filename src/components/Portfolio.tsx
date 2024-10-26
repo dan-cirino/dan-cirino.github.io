@@ -1,6 +1,5 @@
 import Project from "./Project";
 import { FaGithub } from "react-icons/fa";
-import { TbWorldWww } from "react-icons/tb";
 
 export default function Portfolio() {
     return (
@@ -14,28 +13,7 @@ export default function Portfolio() {
                     Projects
                 </h2>
 
-                {/* Projects Grid */}
                 <div className="mx-14 grid grid-cols-1 gap-16 py-8 text-center md:grid-cols-2 lg:mx-0 xl:grid-cols-3">
-                    <Project
-                        image="Website.png"
-                        description=""
-                        techStack="HTML, CSS, Typescript, React"
-                        buttons={[
-                            {
-                                name: "Website",
-                                image: TbWorldWww,
-                                link: "https://dan-cirino.github.io/",
-                            },
-                            {
-                                name: "GitHub",
-                                image: FaGithub,
-                                link: "https://github.com/dan-cirino/dan-cirino.github.io",
-                            },
-                        ]}
-                    >
-                        Portfolio
-                    </Project>
-
                     <Project
                         image="images.png"
                         description="Project 1"
