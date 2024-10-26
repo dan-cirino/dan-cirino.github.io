@@ -5,7 +5,6 @@ import { FaChrome } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 import Features from "../components/Colorpal/Features";
-import Footer from "../components/Footer";
 export default function Colorpal({ theme, setTheme, }) {
     useEffect(() => {
         const storedTheme = localStorage.getItem("nd-theme");
@@ -48,5 +47,5 @@ export default function Colorpal({ theme, setTheme, }) {
                         image: FaChrome,
                         text: "Add to Chrome & Edge",
                     },
-                ] }), _jsx(Features, { title: "Features" }), _jsx(Footer, {})] }));
+                ] }), _jsx(Features, { title: "Features" })] }));
 }
